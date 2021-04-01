@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    background: var(--grey);
+    background: var(--shape);
 `;
 
 export const Content = styled.div`
@@ -64,7 +64,7 @@ export const Nav = styled.nav`
                 position:absolute;
                 top:60px;
                 left:0;
-                background-color: var(--grey);
+                background-color: var(--shape);
                 display: none;
 
 
@@ -73,6 +73,10 @@ export const Nav = styled.nav`
                     display: block;
                     border: 0;
                     min-width: 400px;
+
+                    z-index: 1;
+                    background-color: var(--shape);
+
                 }
 
                 a{

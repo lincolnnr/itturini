@@ -20,7 +20,7 @@ export function Header() {
                                 <span>Plataforma completa para lojas virtuais</span>
                             </a></li>
                             <li><a href="#">
-                                Sistemas
+                                Software on Demand
                                 <span>Desenvolvimento de softwares que facilitam e potencializam a administração de seus negócio</span>
                             </a></li>
                             <li><a href="#">
